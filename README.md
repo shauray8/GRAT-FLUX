@@ -24,3 +24,6 @@ GRAT-X should crush full attention, but I got 1-2s faster on 30 steps. Tried gro
 
 * Default SDPA is a beast ! Flex with a custom mask probably does not even come close to the performance (needs to be confirmed) 
 * Clustering’s reshapes and einsum ops add overhead, even if cache-optimized.
+
+
+_if you observe some distortion towards the botom of all your generations refer to this https://github.com/shauray8/GRAT-FLUX/issues/1#issue-3168859125_
