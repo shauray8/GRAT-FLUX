@@ -8,7 +8,7 @@ Hacked GRAT-X onto FLUX.1-dev. It’s a criss-cross attention mechanism that sho
 * Each query group attends to its row (m=p) or column (n=q).
 * Complexity: O(6⋅3072+8⋅3072)≈43K, vs. full attention’s ( 9.44M ).
 
-```py
+```sh
 git clone https://github.com/shauray8/GRAT-FLUX && cd GRAT-FLUX
 # install all the requirements [pkgs needed for normal FLUX inference]
 python inference.py
